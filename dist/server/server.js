@@ -54,7 +54,7 @@ class Server {
                 console.log('db online');
             }
             catch (error) {
-                throw new Error(`${error}: O sea, efesota`);
+                throw new Error(`${error}: O sea` + console.log(error));
             }
         });
     }

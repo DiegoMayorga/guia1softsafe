@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize'
 import dbcon from '../dbconnection/dbcon'
 
-const Usuario = dbcon.define('Usuario', {
+const Usuario = dbcon.define('User', {
   nombre: {
     type: DataTypes.STRING
   },
